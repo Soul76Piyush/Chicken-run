@@ -26,6 +26,7 @@ The game uses four buttons to control the chicken's movement:
 - **Move Backward**
 - **Move Left**
 - **Move Right**
+- **Space To Jump**
 
 All buttons are implemented using plain JavaScript and styled with CSS for responsiveness.
 
