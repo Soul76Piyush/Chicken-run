@@ -1,94 +1,89 @@
-# JARVIS (Just a Rather Very Intelligent System)
+# 🐔 Chicken Cross - 3D Road Crossing Game
 
-#### This was my attempt to make a voice assistant similar to JARVIS (in iron man movie)
-#### Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.
+A fun and interactive 3D web game built using **HTML**, **CSS**, **JavaScript**, and **Three.js**, where the player controls a chicken trying to cross a busy road filled with cars and obstacles. Use control buttons to navigate the chicken and avoid getting hit!
 
-## Built with
+## 🎮 Gameplay
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+The objective of the game is simple: **Help the chicken cross the road safely** without getting hit by cars.
+
+### ✅ Features
+
+- 🚗 Dynamic moving cars as obstacles
+- 🐔 Chicken character controlled with on-screen buttons
+- 🌄 3D graphics powered by Three.js
+- 🎯 Simple and fun gameplay mechanics
+- 🔊 Sound effects and background music
+- ⏱️ Score tracking and timer system
+- 🚘 Multiple vehicle types and difficulty levels
+- ⚙️ Improved collision detection and smooth animations
+- 🟢 Fully responsive for desktop and mobile
+
+## 🕹️ Controls
+
+The game uses four buttons to control the chicken's movement:
+
+- **Move Forward**
+- **Move Backward**
+- **Move Left**
+- **Move Right**
+
+All buttons are implemented using plain JavaScript and styled with CSS for responsiveness.
+
+## 🛠️ Technologies Used
+
+- **HTML5** – For structuring the game interface
+- **CSS3** – For styling and layout
+- **JavaScript (Vanilla)** – For game logic and interaction
+- **Three.js** – For rendering 3D graphics in the browser
+> Note: Replace `.glb` files or paths according to your actual assets.
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/chicken-cross.git
+cd chicken-cross
+````
+
+### 2. Run the Game
+
+You can open `index.html` directly in your browser, or use a local server (recommended for some assets to load correctly):
+
+```bash
+# Using VS Code Live Server extension
+# OR
+python -m http.server 8000
+# Then visit http://localhost:8000 in your browser
+```
+
+## 📦 Future Plans
+
+- Add power-ups and bonus items 🪙  
+- Implement multiplayer mode or leaderboard 🌐  
+- Introduce levels with changing environments (e.g., night mode, rain) 🌧️🌙  
+- Add character selection or customization 🎨
 
 
-## Features
+## 🧑‍💻 Author
 
-#### For a cool demo of this project watch this [YouTube video](https://www.youtube.com/watch?v=oKtrHy0ERNA)
+**Your Name**
+Piyush Kumar Roy
 
-It can do a lot of cool things, some of them being:
+---
 
-- Greet user
-- Tell current time and date
-- Launch applications/softwares 
-- Open any website
-- Tells about weather of any city
-- Open location of any place plus tells the distance between your place and queried place
-- Tells your current system status (RAM Usage, battery health, CPU usage)
-- Tells about your upcoming events (Google Calendar)
-- Tells about any person (via Wikipedia)
-- Can search anything on Google 
-- Can play any song on YouTube
-- Tells top headlines (via Times of India)
-- Plays music
-- Send email (with subject and content)
-- Calculate any mathematical expression (example: Jarvis, calculate x + 135 - 234 = 345)
-- Answer any generic question (via Wolframalpha)
-- Take important note in notepad
-- Tells a random joke
-- Tells your IP address
-- Can switch the window
-- Can take screenshot and save it with custom filename
-- Can hide all files in a folder and also make them visible again
-- Has a cool Graphical User Interface
+Have fun helping the chicken cross the road safely! 🐣🚦
 
-## API Keys
-To run this program you will require a bunch of API keys. Register your API key by clicking the following links
+```
 
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- [Wolframalpha](https://www.wolframalpha.com/)
-- [Google Calendar API](https://developers.google.com/calendar/auth)
-  
-## Installation
+---
 
-- First clone the repo
-- Make a config.py file and include the following in it:
-    ```weather_api_key = "<your_api_key>"
-    email = "<your_email>"
-    email_password = "<your_email_password>"
-    wolframalpha_id = "<your_wolframalpha_id>"
-- Copy the config.py file in Jarvis>config folder
-- Make a new python environment
-    If you are using anaconda just type ```conda create -n jarvis python==3.8.5 ``` in anaconda prompt
-- To activate the environment ``` conda activate jarvis ```
-- Navigate to the directory of your project
-- Install all the requirements by just hitting ``` pip install -r requirements.txt ```
-- Install PyAudio from wheel file by following instructions given [here](https://stackoverflow.com/a/55630212)
-- Run the program by ``` python main.py ```
-- Enjoy !!!!
+Let me know if you want to include:
 
-## Code Structure
+- Deployment instructions (e.g., GitHub Pages)
+- Live demo link
+- Custom styling of buttons or terrain
+- A table of obstacles and actions
 
-
-    ├── driver
-    ├── Jarvis              # Main folder for features 
-    │   ├── config          # Contains all secret API Keys
-    │   ├── features        # All functionalities of JARVIS 
-    │   └── utils           # GUI images
-    ├── __init__.py         # Definition of feature's functions
-    ├── gui.ui              # GUI file (in .ui format)
-    ├── main.py             # main driver program of Jarvis
-    ├── requirements.txt    # all dependencies of the program
-
-- The code structure if pretty simple. The code is completely modularized and is highly customizable
-- To add a new feature:
-  -  Make a new file in features folder, write the feature's function you want to include
-  - Add the function's definition to __init__.py
-  - Add the voice commands through which you want to invoke the function
-
-## Contribute
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/JARVIS/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
-
-## License
-This project is licensed under [MIT License](https://github.com/Gladiator07/JARVIS/blob/master/LICENSE) 2021 Atharva Ingle
-
-## Future Improvements
-- Generalized conversations can be made possible by incorporating Natural Language Processing
-- GUI can be made more nicer to look at and functional
-- More functionalities can be added
+I can adjust it accordingly.
+```
