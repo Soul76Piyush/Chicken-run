@@ -67,7 +67,6 @@ python -m http.server 8000
 
 ## 🧑‍💻 Author
 
-**Your Name**
 Piyush Kumar Roy
 
 ---
